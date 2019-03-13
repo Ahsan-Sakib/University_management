@@ -1,0 +1,45 @@
+/* CSS Document */
+.mainbody
+{
+	background:#fff;
+	padding:0px 45px 500px 45px;
+	margin-top:20px;
+	
+}
+
+.topbutton a
+{   /* margin-top:-px;*/
+	float:right;
+	
+	padding:20px 20px;
+	margin-right:20px;
+
+}
+.leftsidebar
+{
+	
+}
+.top_right
+{
+	float:left;
+}
+.photo 
+{
+	padding:20px 40px;
+ background:white;
+	width:20%;
+	margin-top:50px;
+	padding-bottom:110px;
+	float:left
+	
+}
+.top_right button
+{
+	color:;
+	
+}
+.bottom
+{padding-top:300px;
+margin-left:30%;
+	
+	}

@@ -1,0 +1,266 @@
+.sectionContainer{margin-bottom: 15px;}
+.sectionHeader{ text-decoration: underline;}
+.sectionContainer p{ margin-bottom: 20px;}
+.sectionContainer img{height: 250px; border: 5px solid gray; border-radius: 10px; padding: 10px;}
+
+.largeImage img {
+  height: 550px;
+  border: 5px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.single-page section{margin: 0 10px;}
+
+.empty-bar{
+  height: 70px;
+}
+
+/*start of navigation*/
+nav {
+  z-index: 99999;
+  width: 100%;
+  border-bottom: 1px solid #df691a;
+}
+nav .block {
+  background: #fff;
+  padding: 10px 40px;
+  background: rgba(255, 255, 255, 0.89);
+}
+nav .block .navbar-default {
+  border: none;
+  border-radius: 0px;
+  margin-bottom: 0;
+}
+nav .block .navbar-default .navbar-brand {
+  padding-left: 50px;
+  margin-top: -10px;
+}
+nav .block .navbar-default .navbar-nav {
+  padding-top: 10px;
+}
+nav .block .navbar-default .navbar-nav > li > a {
+  color: #2E2E2E;
+  margin: 0px 15px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+nav .block .navbar-default .navbar-nav > li > a:before {
+  background-color: transparent;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  height: 2px;
+  -webkit-transition: .3s all;
+  -o-transition: .3s all;
+  transition: .3s all;
+  width: 0;
+}
+nav .block .navbar-default .navbar-nav > li > a:hover:before {
+  background-color: #e94c3d;
+  content: "";
+  width: 100%;
+}
+nav .block .navbar-default .navbar-nav > li.current > a {
+  color: #2E2E2E;
+  padding: 10px 0px;
+  margin: 0px 15px;
+}
+nav .block .navbar-default .navbar-nav > li.current > a:before {
+  background-color: transparent;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  height: 2px;
+  -webkit-transition: .3s all;
+  -o-transition: .3s all;
+  transition: .3s all;
+  width: 100%;
+  background-color: #e94c3d;
+}
+nav .block .navbar-default .navbar-nav > .active > a,
+nav .block .navbar-default .navbar-nav > .active > a:focus,
+nav .block .navbar-default .navbar-nav > .active > a:hover {
+  background: none;
+}
+nav .block .navbar-default .navbar-nav > .active > a:before,
+nav .block .navbar-default .navbar-nav > .active > a:focus:before,
+nav .block .navbar-default .navbar-nav > .active > a:hover:before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 2px;
+  background: #FF5333;
+}
+
+/* end of navigation */
+
+
+/* utility styles */
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .btn-round{
+  border-radius: 25px;
+  padding: 4px 30px;
+  margin-left: 100px;
+ }
+
+
+/* section style */
+  section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 30px;
+    border-radius: 30px;
+  }
+ .section-hablu-programming{
+  background: #F6F6F6;
+ }
+ .section-dream-job{
+  background: rgba(70, 168, 191, 0.1);
+ }
+
+ .section-basic-web{
+  background: rgba(236, 228, 239, 0.6);
+ }
+
+ .section-struggle{
+  background: rgba(185, 200, 197, 0.33);
+ }
+
+ .section-footer{
+  background: #C3DED8;
+ }
+
+
+  .section-title-last{
+    color:rgba(255, 83, 51, 0.77);
+  }
+
+  .section-description .left{
+    color: #7B5B5B;
+    line-height: 1.2;
+    margin: 0 auto;
+    padding: 0 5px;
+  }
+
+  .section-description .right{
+    margin-left: -20px;
+  }
+
+
+  .section-description ol li{
+    list-style: none;
+    font-size: 1.3em;
+  }
+  .title-second-line{
+    margin-top: -12px;
+  }
+
+  .piece-quater{
+    border: 2px solid #E6E6E6;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+
+  .page-block{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E6E6E6;
+  }
+
+  .latest-writings{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-bottom: 1px solid #E6E6E6;
+  }
+
+  .writing-block{
+    padding-bottom: 40px;
+    padding-top: 20px;
+  }
+
+  .writing-piece{
+    margin-bottom: 10px;
+  }
+
+  .writing-piece .title a{
+    color: #333333;
+  }
+
+  .writing-piece .title a:hover{
+    color: #4582ec;
+  }
+  .read-more{
+    margin-bottom: 40px;
+  }
+
+  .left-side-section{
+    margin-top: 50px;
+    border-left: 1px solid #E6E6E6;
+  }
+
+  .left-side-section .side-series{
+    padding: 0 15px;
+    margin-top: 20px;
+  }
+
+  .side-series .section-description{
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .side-series ol li{
+    list-style: none;
+  }
+
+
+  .side-series .page-link{
+    font-size: 12px;
+    line-height: 10px;
+  }
+  .side-series .page-link-collection{
+    margin-left: 10px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #E6E6E6;
+  }
+  .btn-side-series{
+    border-radius: 25px;
+    background-color: #e6e6e6;
+    padding: 0px 20px;
+    font-size: 11px;
+  }
+
+  .question-holder{
+  	border-radius: 10px;
+  	border:3px solid  rgba(138, 43, 226, 0.2);
+  	padding: 10px 25px 1px 25px;
+  }
+
+  .sectionContainer .question-number{
+    font-weight: 700;
+  	font-size: 21px;
+  }
+
+  @media (min-width: 768px){
+    .jumbotron{
+      margin-top: 60px;
+    }
+  }
+
+  @media (max-width:992px){
+    .piece-quater{
+      margin-bottom: 20px;
+    }
+  }

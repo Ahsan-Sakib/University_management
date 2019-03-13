@@ -1,0 +1,165 @@
+body{	
+background:#0F9;
+scroll
+font-size:100%;
+font-family:Arial, Helvetica, sans-serif;
+line-height:1.5;
+text-align:left;
+ background-attachment: fixed;
+
+}
+a
+{
+	text-decoration:none;
+}
+a:link,a:visited
+{
+	
+}
+a:active,a:hover
+{
+	
+	
+	-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+		border-radius:5px;
+		
+}
+/*body class*/
+.body{
+	margin:0 auto;
+	width:90%;
+	clear:both;
+}
+.mainheader img
+{
+	background-image:url(../images/swansea-university-campus.jpg);
+	width:30%;
+	padding-right:660px;
+	margin:2% auto;
+}
+.mainheader nav
+{
+	background-color:#FFF;
+	hight:40px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+.mainheader nav ul
+{
+	list-style:none;
+	margin:0 auto;
+}
+.mainheader nav ul li
+{
+	background:#CCC;
+     border:1 px solid white;
+	display:inline-block;
+	list-style-position:center;
+}
+.mainheader nav ul li a:link,.mainheader nav ul li a:visited
+{
+	
+	color:#930;
+	padding:20px;
+    hight:20px;
+}
+.mainheader nav ul li a:hover,.mainheader nav ul li a:active
+{
+	background-color:#CC0;
+	text-shadow:none;
+	
+}
+.mainheader nav ul li a{
+		
+	-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+		border-radius:5px;
+	}
+	.mainheader nav ul ul
+	{
+		display:none;
+	}
+.maincontent 
+{
+	line-height:25px;
+	-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+		border-radius:5px;
+	
+	
+}
+.content{
+   float:left;
+   width:70%;/*main body 90% we have 30%*/
+}
+.topcontent{
+ background-color:#999;
+  -moz-border-radius:5px;
+ -webkit-border-radius:5px;
+  border-radius:5px;
+  padding:2% 3%;
+  margin-top:2%;
+}
+.bottomcontent{
+ background-color:#999;
+  -moz-border-radius:5px;
+ -webkit-border-radius:5px;
+  border-radius:5px;
+  padding:2% 3%;
+  margin-top:2%;
+}
+.top-sidebar{
+ width:22%;
+ float:left;
+ background:#FFF;
+ margin-left:2%;
+ margin-top:2%;
+ -moz-border-radius:5px;
+ -webkit-border-radius:5px;
+  border-radius:5px;
+  padding:2% 3%;
+}
+
+.middle-sidebar{
+ width:22%;
+ float:left;
+ background:#FFF;
+ margin-left:2%;
+ margin-top:2%;
+ -moz-border-radius:5px;
+ -webkit-border-radius:5px;
+  border-radius:5px;
+  padding:2% 3%;
+ 
+}
+.bottom-sidebar{
+ width:22%;
+ float:left;
+ background:#FFF;
+ margin-left:2%;
+ margin-top:2%;
+ -moz-border-radius:5px;
+ -webkit-border-radius:5px;
+  border-radius:5px;
+  padding:2% 3%;
+ 
+}
+footer
+{    
+    
+	background-color:#F3C;
+}
+.foot
+{
+	width:100%;
+	hight:2%;
+	background-color:#FFF;
+}
+h2
+{
+	color:#F33
+}
+
+/*start from 44 min*/

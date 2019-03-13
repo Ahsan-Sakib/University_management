@@ -1,0 +1,43 @@
+.loginbody
+{
+	margin:0 auto;
+	width:75%;
+	clear:both;
+}
+body{
+	background-color:#3e464d;
+	font-size:100%;
+	line-height:1.5;
+	text-align:left;
+}
+h1
+{
+	display:block;
+	background-color:#FFF;
+	padding:10px 10px;
+	text-align:center;
+	color:#F39;
+	border-radius:5px;
+	border-bottom-color:#3e464d;
+	border-bottom-style:groove;
+}
+.loginmain{
+	padding:20px 20px;
+	background-color:#FFF;
+	margin:100px 100px 0px 100px;
+	width:50%;
+	/*line-height:200%;*/
+	font-size:200%;	
+	color:#F30;
+	border-top-right-radius:50px;
+
+	
+}
+footer
+{
+	background:url(../images/sidebar_section_bottom.jpg);
+	width: 445px;
+	height: 15px;
+	margin-left:100px;
+	margin-bottom: 30px;
+}
